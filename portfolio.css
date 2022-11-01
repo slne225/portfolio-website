@@ -1,0 +1,175 @@
+/* * {
+    border: 2px solid red;
+} */
+/* .project {
+    border: 2px solid red;
+} */
+.header {
+    /* border: 2px solid yellow; */
+    height: 100px;
+    width:  100%;
+    margin: 0 auto;
+    display: flex;
+}    
+body {
+    /* border: 2px solid red; */
+    background-color: rgb(18, 36, 36);
+    color: rgb(175, 194, 194);
+    margin: 0 auto;
+    text-align: left;
+    padding: 0 1em;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    height: 1200px;
+    position: relative;
+}
+/*navigation bar*/
+nav {
+    /* border: 2px solid blue; */
+    display: flex;
+    background-color: darkslategrey;
+    border-radius: 15px;
+    /* margin: 2.5em 0; */
+    box-shadow: 10px 5px 5px teal;
+    opacity: .95;
+    position: fixed;
+    z-value: 2;
+    /* width:  85%; */
+    /* height: 100%; */
+    margin: 0 auto;
+}
+nav h2 {
+    /* border: 2px solid blue; */
+    text-align: justify;
+    width-right: 0;
+    margin: 10px;
+    padding: 10px;
+}
+nav h2:hover {
+    color: white;
+}
+nav ul {
+    /* border: 2px solid green; */
+    margin: 10px 10px 10px auto;
+   
+}
+nav li {
+    padding:10px;
+}
+.navigation-item {
+    /* border: 2px solid yellow; */
+    display: inline-block;
+}
+.navigation-item a {
+    color: white;
+}
+
+/*about me*/
+#about-me {
+    /* border: 2px solid red; */
+    background-color: darkslategrey;
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px teal;
+    /* opacity: .75; */
+    z-index: 0;
+    /* position: relative; */
+}
+.about-me-container {
+    /* border: 2px solid blue; */
+    display: flex;
+    margin: 0 auto;
+    display: flex;
+}
+.about-me-text-container {
+    /* border: 2px solid yellow; */
+    margin: 10px;
+}
+.about-me-container img {
+    /* border: 2px solid green; */
+    width: 10em;
+    height: 10em;
+    margin: 10px 10px 10px auto;
+    border-radius: 15px;
+}
+
+/*project section styling*/
+#projects {
+    background-color: darkslategrey;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 2.5em auto;
+    box-shadow: 10px 5px 5px teal;
+    opacity: .75;
+}
+.project-container {
+    /* border: 2px solid yellow; */
+    display: flex;
+}
+#projects h2 {
+    /* border: 2px solid red; */
+    margin: 10px;
+}
+.project {
+    background-color: rgb(25, 53, 53);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    box-shadow: 10px 5px 5px teal;
+}
+.project:hover {
+    background-color: rgb(114, 165, 165);
+    color: lightgrey
+}
+.project-title {
+    /* border: 2px solid blue; */
+    display: inline-block; */
+    /* background-color: black; */
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;
+    margin: 10px; 
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    
+}   
+.project-title a {
+    color: white;
+}
+.project-title h3 {
+    margin: 10px;
+}
+
+/* .fab:before {
+    content:"\f13b";
+} I'm not sure what this does?*/
+
+/*skills styling*/
+#skills {
+    background-color: darkslategrey;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 10px 5px 5px teal;
+    opacity: .75;
+}
+#skills-container > * {
+    /* border: 2px solid red; */
+    font-size: 2em;
+    width: 2em;
+    margin-top: var(--spacing-1);
+}
+/*footer styling*/
+.footer {
+    background-color: darkslategrey;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 2.5em;
+    box-shadow: 10px 5px 5px teal;
+    opacity: .75;
+}
+/*skills icons*/
+.fab {
+    font-family: "Font Awesome 5 Brands";
+}
