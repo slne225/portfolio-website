@@ -5,23 +5,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="portfolio.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9dbbbe949f.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <nav>
-        <h2 id="logo">Steven Neal</h2>
-        <ul>
-            <li class="navigation-item"><a href="about-me">About Me</a></li>
-            <li class="navigation-item"><a href="projects">Projects</a></li>
-            <li class="navigation-item"><a href="skills">Skills</a></li>
-            <li class="navigation-item"><a href="contact">Contact</a></li>
-        </ul>
-    </nav>
+    <div class="header">
+        <nav>
+            <h2 id="logo">Steven Neal</h2>
+            <ul>
+                <li class="navigation-item"><a href="about-me">About Me</a></li>
+                <li class="navigation-item"><a href="projects">Projects</a></li>
+                <li class="navigation-item"><a href="skills">Skills</a></li>
+                <li class="navigation-item"><a href="contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
     <main>
-        <section></section>
-        <section></section>
-        <section></section>
+        <section id="about-me">
+            <div class="about-me-container">
+                <div class="about-me-text-container">
+                    <h2>About Me</h2>
+                    <p>Hi, I'm Steven Neal</p>
+                    <p>I love to build things with code! this is a test!</p>
+                </div>
+                <img src="./tatyova_pic.jpg" alt="A photo of Steven Neal" class="mugshot">
+            </div>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-container">
+                <div class="project">
+                    <summary class="project-title">
+                        <h3><a href="">first project</a></h3>
+                    </summary>
+                    <!-- <br> -->
+                    <!-- <a href="">first project</a> -->
+                    <!-- <p class="project description">first project description</p> -->
+                </div>
+                <div class="project">
+                    <summary class="project-title">
+                        <h3><a href="">second project</a></h3>   
+                    </summary>
+                    <!-- <br> -->
+                    <!-- <a href="">second project</a> -->
+                    <!-- <p class="project-description">second project description</p> -->
+                </div>
+                <div class="project">
+                    <summary class="project-title">
+                        <h3><a href="">third project</a></h3>
+                    </summary>
+                    <!-- <br> -->
+                    
+                    <!-- <p class="project-description">third project description</p> -->
+                </div>
+            </div>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <div id="skills-container">
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-git"></i>
+                <i class="fab fa-github"></i>
+                <i class="fab fa-python"></i>
+                <img src="https://www.sqlite.org/images/sqlite370_banner.gif" alt="sequel lite logo">
+            </div>
+        </section>
     </main>
-    <footer></footer>
+    <footer class="footer">footer</footer>
     <script></script>
 </body>
 </html>
