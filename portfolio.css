@@ -1,6 +1,7 @@
-/* * {
-    border: 2px solid red;
-} */
+* {
+    /* border: 2px solid red; */
+    /* border-radius: 15px; */
+}
 .header {
     /* border: 2px solid yellow; */
     height: 100px;
@@ -87,6 +88,13 @@ nav li {
 }
 
 /*about me section styling*/
+#more-info,
+#read-less {
+    display: none;
+}
+#read-more {
+    display: inline-block;
+}
 #about-me {
     /* border: 2px solid red; */
     border-bottom: 1px solid darkslategrey;
@@ -106,7 +114,6 @@ nav li {
     display: block;
     width: 40%;
     font-size: 20px;
-    
 }
 
 /*project section styling*/
@@ -173,15 +180,19 @@ nav li {
     color: white;
 }
 .button {
+    
     border-radius: 5px;
     margin: 5px;
     background-color: rgb(93, 145, 145);
+    border: 1px solid teal;
+    box-shadow: 5px 2px 0 teal;
 }
 .button:hover {
     background-color: rgb(13, 56, 56);
     color: lightgrey;
     transition: 1s;
     box-shadow: 7px 5px 0 rgb(235, 171, 53);
+
 }
 
 /*skills section styling*/
