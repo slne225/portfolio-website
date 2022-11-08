@@ -258,26 +258,26 @@ nav li {
 /*contact form*/
 #contact-form {
     /* border: 2px solid yellow; */
-    diplay: flex;
+    display: flex;
     flex-direction: column;
     background-color: darkslategrey;
     border-radius: 15px;
     margin: .5em auto;
-    padding-right: ;
-    width: ;
+    /* padding-right: ;
+    width: 50%; */
     /* display: inline-block; */
     box-shadow: 5px 2px 0 teal;
     height: auto;
     border: 2px solid teal;
     line-height: 30px;
 }
-#contact-form h2 {
-    /* border: 2px solid red; */
-
+#overlay {
+    /* border: 2px solid yellow; */
+    margin: 0 auto;
 }
-.name {
-    
-    /* border: 2px solid blue; */
-    /* width: 75%;
-    text-align: right; */
+.back,
+.back a {
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    color: white;
 }
