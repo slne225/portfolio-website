@@ -27,7 +27,7 @@
             <div class="about-me-container">
                 <div class="about-me-text-container">
                     <h2>Hi, I'm Steven Neal.</h2>
-                    <p>I love to build things with code!</p>
+                    <p>Let's build something great!</p>
                     <p id="more-info">This text should be hidden unless you hit the read more button</p>
                     <div class="button-container">
                         <button id="read-less" class="button">Read Less</button>
@@ -99,7 +99,44 @@
             <i class="fab fa-github"><br><a href="">my github</a></i>
             <i class="fab fa-linkedin"><br><a href="">my linkedin</a></i>
         </div>
+        <br>
+        <section class="contact-form" id="contact-form">
+            <h2>Contact Me</h2>
+            <!-- <br> -->
+            <form action="contact.html" method="POST">
+                <section class="name">
+                    <label for="first-name">First Name</label>
+                    <br>
+                    <input type="text" name="first-name" id="first-name">
+                </section>
+                <br>
 
+                <section class="name">
+                    <label for="last-name">Last Name</label>
+                    <br>
+                    <input type="text" name="last-name" id="last-name">
+                </section>
+                <br>
+
+                <section class="name">
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="text" name="email" id="email">
+                </section>
+                <br>
+
+                <section class="extra-info name">
+                    <label for="extra">Anything else you want to add?</label>
+                    <br>
+                    <textarea id="extra" name="extra" rows="3" cols="40" placeholder="enter additional text here."></textarea>
+                </section>
+                <br>
+
+                <section class="submission">
+                    <input class="button" type="submit" value="Submit">
+                  </section>
+            </form>
+        </section>
     </footer>
     <script src="./portfolio.js"></script>
 </body>
