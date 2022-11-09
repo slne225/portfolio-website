@@ -151,6 +151,7 @@ nav li {
 }
 @media only screen and (max-width: 450px) {
     .project-container {
+        /* border: 2px solid yellow; */
         display: block;
     }
 }
@@ -255,7 +256,7 @@ nav li {
     font-size: 10px;
 }
 
-/*contact form*/
+/*contact form styling*/
 #contact-form {
     /* border: 2px solid yellow; */
     display: flex;
